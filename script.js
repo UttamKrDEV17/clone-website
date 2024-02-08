@@ -1,6 +1,9 @@
 const locoscroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true,
+    mobile: {
+      smooth: true,  
+    },
 });
 
 function videoanimation(){
